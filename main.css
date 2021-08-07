@@ -1,0 +1,34 @@
+body {
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+}
+#title_bar {
+    -webkit-app-region: drag;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(0deg, #dddddd, #c0c0c0 , #c0c0c0 , #dddddd);
+    /* background: linear-gradient(-135deg, #ffa733, #ad41d8); */
+}
+#quit {
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    -webkit-app-region: no-drag;
+    outline: none;
+}
+#mini {
+    width: 30px;
+    height: 30px;
+    -webkit-app-region: no-drag;
+    outline: none;
+}
+#resize {
+    width: 30px;
+    height: 30px;
+    -webkit-app-region: no-drag;
+    outline: none;
+}
