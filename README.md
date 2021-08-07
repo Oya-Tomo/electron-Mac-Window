@@ -1,5 +1,4 @@
-# electron-Mac-Window
-# Mac風ウィンドウを作る
+# electron-Mac-Window  Mac風ウィンドウを作る
 
 ## 林檎へのあこがれ　～longing～
 　皆さんは、Mac PCに憧れたことはありますか？<br>
