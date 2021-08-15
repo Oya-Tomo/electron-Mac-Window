@@ -6,9 +6,12 @@
 </head>
 <body>
     <div id="title_bar">
-        <input id="quit" type="image" src="button_img/quit.png" alt="" onclick="quit()">
-        <input id="mini" type="image" src="button_img/mini.png" alt="" onclick="mini_window()">
-        <input id="resize" type="image" src="button_img/resize.png" alt="" onclick="resize_window()">
+        <input id="quit" type="image" src="button_img/quit_nm.png" alt="" onclick="quit()"
+            onmouseover="this.src='button_img/quit.png'" onmouseout="this.src='button_img/quit_nm.png'">
+        <input id="mini" type="image" src="button_img/mini_nm.png" alt="" onclick="mini_window()"
+            onmouseover="this.src='button_img/mini.png'" onmouseout="this.src='button_img/mini_nm.png'">
+        <input id="resize" type="image" src="button_img/resize_nm.png" alt="" onclick="resize_window()"
+            onmouseover="this.src='button_img/resize.png'" onmouseout="this.src='button_img/resize_nm.png'">
     </div>
 </body>
 <script src="renderer.js"></script>
