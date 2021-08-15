@@ -18,8 +18,11 @@
             "main.html",
             "main.css",
             "button_img/mini.png",
+            "button_img/mini_nm.png",
             "button_img/resize.png",
-            "button_img/quit.png"
+            "button_img/resize_nm.png",
+            "button_img/quit.png",
+            "button_img/quit_nm.png"
         ],
         "win": {
             "target": "nsis",
