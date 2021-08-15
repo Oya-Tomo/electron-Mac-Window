@@ -3,6 +3,7 @@ const Store = require('electron-store');
 const app = electron.app;
 const ipcMain = electron.ipcMain;
 const BrowserWindow = electron.BrowserWindow;
+const globalShortcut = electron.globalShortcut;
 
 let mainWindow = null;
 
@@ -48,6 +49,14 @@ app.on('ready', function() {
 
     mainWindow.on('closed', function() {
         mainWindow = null;
+    });
+    
+    globalShortcut.register('CommandOrControl+M', () => {
+        mainWindow.minimize();
+    });
+
+    globalShortcut.register('CommandOrControl+Q', () => {
+        app.quit();
     });
 });
 
